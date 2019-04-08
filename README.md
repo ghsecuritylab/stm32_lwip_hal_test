@@ -1,0 +1,7 @@
+STM32 LWip HAL test app
+#stm32 #hal #test
+
+This project probably contain a BUG. 
+Compiled fine with GCC (arm-none-eabi-), 
+works normal, but ST-Link not connected with message "init mode failed (unable to connect to the target)"
+If erase (via internal bootloader and stm32flash utility), ST-Link connect OK.
